@@ -1,26 +1,48 @@
-<!--About Me Template-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset = "UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <title>Home</title>
+    <link href="style-mobile.css" rel="stylesheet" type="text/css" media="max-width: 600px">
+    <title>About Me</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <h4>
+                <a href="Home.html">Home</a>
+                <a href="AboutMe.html">About Me</a>
+                <a href="Project.html">Project</a>
+                <a href="ContactMe.html">Contact Me</a>
+            </h4>
+        </nav>
+    </header>
     <div id="wrapper">
         <header>
             <h1>About Me</h1>
         </header>
-    </div>
-    <div style="text-align: center;">
-        <img src="myimage.png" alt="My Image"
-        style="width:250px;height: 250px;">
-    </div>
+        
+        <div id="profile-image">
+            <img src="myimage.png" alt="My Image" class="profile-image">
+        </div>
 
-    <div id="introduction" style="text-align: center;">
-        <p>My name is Mohammed Ali Khan and I am in 2nd year of my
-            univeristy degree in Bachelors of Networking and I.T Security.
-        </p>
+        <div id="introduction" style="text-align: center;">
+            <p>My name is Mohammed Ali Khan and I am in my 2nd year of my university degree in Bachelors of Networking and I.T. Security.</p>
+        </div>
+
+        <!-- Adding video -->
+        <div style="text-align: center;">
+            <video width="320" height="240" controls poster="video-poster.png">
+                <source src="myvideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    
+        <footer>
+            <p>Contact: <a href="mailto:mohammed.alikhan1@ontariotechu.net">mohammed.alikhan1@ontariotechu.net</a></p>
+            <p>&copy; 2024 Mohammed Ali Khan. All rights stolen from the gods for you mi amor!.</p>
+        </footer>
     </div>
 </body>
 </html>
