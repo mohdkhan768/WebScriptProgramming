@@ -17,6 +17,7 @@
         padding: 25px;
         background: linear-gradient(#45a049, #F5D927);
         color: #ffffff;
+        text-align: center;
     }
 
     h1{
